@@ -1,6 +1,6 @@
 {
 	"name": "doge-seed-cli",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Generate dank mnemonic seed phrases in the terminal",
 	"license": "MIT",
 	"repository": "sindresorhus/doge-seed-cli",
