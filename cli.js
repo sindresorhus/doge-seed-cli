@@ -33,8 +33,10 @@ const cli = meow(`
 (async () => {
 	const bits = cli.input[0];
 
-	let seed = bits ? dogeSeed(parseInt(bits, 10)) : dogeSeed();
-	seed = seed.split(' ').map(x => chalk[randomColor()](x)).join(' ');
+	const seed = (bits ? dogeSeed(Number(bits)) : dogeSeed())
+		.split(' ')
+		.map(x => chalk[randomColor()](x))
+		.join(' ');
 
 	const seedBox = boxen(seed, {
 		float: 'center',
