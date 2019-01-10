@@ -4,6 +4,8 @@
 
 Generates a cryptographically secure mnemonic seed phrase with added dankness. The first four words will be a randomly generated Doge-like sentence. The seed phrases are fully valid checksummed BIP39 seeds. They can be used with any cryptocurrency and can be imported into any BIP39 compliant wallet. [Read more…](https://github.com/lukechilds/doge-seed)
 
+Note: [The entropy is slightly lower than normal seeds.](https://github.com/lukechilds/doge-seed#how-secure-is-this)
+
 <img src="screenshot.png" width="1175">
 
 
