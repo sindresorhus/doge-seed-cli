@@ -1,4 +1,4 @@
-# doge-seed-cli [![Build Status](https://travis-ci.com/doge-seed-cli/sindresorhus.svg?branch=master)](https://travis-ci.com/sindresorhus/doge-seed-cli)
+# doge-seed-cli
 
 > Generate dank [mnemonic seed phrases](https://en.bitcoinwiki.org/wiki/Mnemonic_phrase) in the terminal
 
