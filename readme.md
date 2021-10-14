@@ -8,13 +8,11 @@ Note: [The entropy is slightly lower than normal seeds.](https://github.com/luke
 
 <img src="screenshot.png" width="1175">
 
-
 ## Install
 
+```sh
+npm install --global doge-seed-cli
 ```
-$ npm install --global doge-seed-cli
-```
-
 
 ## Usage
 
@@ -29,12 +27,6 @@ $ doge-seed --help
   The default value is 128.
 ```
 
-
 ## Related
 
 - [doge-seed](https://github.com/lukechilds/doge-seed) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
